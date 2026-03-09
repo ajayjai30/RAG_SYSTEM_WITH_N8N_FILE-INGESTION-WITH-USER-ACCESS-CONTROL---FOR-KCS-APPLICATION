@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+qdrant-storage/
+chat_memory.sqlite
+out.txt
+.env
+.DS_Store

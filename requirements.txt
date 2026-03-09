@@ -1,0 +1,18 @@
+# --- Core RAG & LLM ---
+langchain
+langchain-community
+langchain-openai
+openai
+tiktoken
+
+# --- Vector Database ---
+qdrant-client
+
+# --- UI & Memory ---
+gradio
+sqlite-vec
+sentence-transformers
+
+# --- Utilities ---
+python-dotenv
+tabulate
