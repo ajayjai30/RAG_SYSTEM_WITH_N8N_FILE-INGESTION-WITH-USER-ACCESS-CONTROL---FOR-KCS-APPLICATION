@@ -305,7 +305,7 @@ This can cause **"Model Not Found" (404) errors** because the application code e
 
 ---
 
-## NVIDIA API Key
+## API Key
 
 Required for LLM access.
 
