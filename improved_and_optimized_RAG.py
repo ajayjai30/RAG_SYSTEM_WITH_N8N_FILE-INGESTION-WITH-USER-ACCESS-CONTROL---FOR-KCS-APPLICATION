@@ -28,8 +28,9 @@ from langgraph.prebuilt import create_react_agent
 #  CONFIGURATION
 # ==========================================
 
-API_KEY = "your_actual_nvapi_key" # Replace with your NVIDIA key
-LLM_MODEL_NAME = "openai/gpt-oss-20b"
+API_KEY = "insert_api_key_for_llm_here" # Replace with API key
+LLM_MODEL_NAME = "openai/gpt-oss-20b" #or any model u wish
+BASE_URL="the_base_url_of_the_cloud_provider_for_LLM"
 LOCAL_EMBED_URL = "http://ollama:11434" # Docker network URL
 LOCAL_EMBED_MODEL = "nomic-embed-text:v1.5"
 
@@ -42,7 +43,7 @@ sparse_model = SparseTextEmbedding(model_name="Qdrant/bm25")
 reranker = CrossEncoder('BAAI/bge-reranker-base')
 
 llm = ChatOpenAI(
-    base_url="https://integrate.api.nvidia.com/v1",
+    base_url=BASE_URL,
     api_key=API_KEY,
     model=LLM_MODEL_NAME
 )
