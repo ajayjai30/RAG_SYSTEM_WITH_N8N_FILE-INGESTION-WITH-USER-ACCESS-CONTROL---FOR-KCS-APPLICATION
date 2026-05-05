@@ -316,7 +316,7 @@ Required for LLM access.
 ## Clone Repository
 
 ```
-git clone <repository-url>
+git clone https://github.com/ajayjai30/RAG_SYSTEM_WITH_N8N_FILE-INGESTION-WITH-RBAC-CONTROL-FOR-KCS-APPLICATION.git
 cd KCS-CHATBOT-WITH-NEW-APPORACH
 ```
 
