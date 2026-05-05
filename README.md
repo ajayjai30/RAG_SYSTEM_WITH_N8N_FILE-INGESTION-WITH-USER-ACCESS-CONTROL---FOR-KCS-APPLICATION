@@ -82,7 +82,7 @@ This significantly improves **efficiency and reasoning quality**.
 
 Role-based access control is **strictly enforced on the backend**.
 
-Supported roles:
+Supported roles(Currently):
 
 - `admin`
 - `employee`
